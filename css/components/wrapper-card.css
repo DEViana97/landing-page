@@ -1,0 +1,15 @@
+.wrapper-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 10px;
+    border: 2px solid #F7A3A2;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    
+}
+

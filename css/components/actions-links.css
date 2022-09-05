@@ -1,0 +1,14 @@
+.actions-links {
+    display: inline-flex;
+    justify-items: center;
+    color: #292E40;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 40px;
+    
+}
+
+.actions-links:hover {
+    color: #fff;
+    transition: 200ms ease-in-out;
+}

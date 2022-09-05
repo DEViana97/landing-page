@@ -1,0 +1,34 @@
+.button-product {
+    color: #292E40;
+    font-weight: 600;
+    background-color: #F8CAC1;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+
+.button-product:hover {
+    background-color: #F7A3A2;
+    transition: 200ms ease-in-out;
+}
+
+.button-start.-seemore {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 200px;
+    border: 3px solid #292E40;
+    margin-bottom: 50px;
+    
+}
+
+.button-start.-seemore:hover {
+    background: #F7A3A2;
+}
+

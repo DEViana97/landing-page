@@ -1,0 +1,9 @@
+.main-apresentation {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color: #fff;
+
+}

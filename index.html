@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/components/reset.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/actions-links.css">
+    <link rel="stylesheet" href="css/components/main-start.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/button-start.css">
+    <link rel="stylesheet" href="css/components/main-apresentation.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/main-products.css">
+    <link rel="stylesheet" href="css/components/product-wrapper.css">
+    <link rel="stylesheet" href="css/components/button-product.css">
+    <link rel="stylesheet" href="css/components/coupon-section.css">
+    <link rel="stylesheet" href="css/components/main-contact.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+
+</head>
+<body>
+    <header class="main-header">
+        <img src="assets/imgs/logo.png" alt="Logo">
+        <nav class="navigation">
+            <a class="actions-links" href="#start">Início</a>
+            <a class="actions-links" href="#apresentation">Apresentação</a>
+            <a class="actions-links" href="#products">Produtos</a>
+            <a class="actions-links" href="#coupon">Cupons</a>
+            <a class="actions-links" href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="main-start" id="start">
+
+        <div class="wrapper-start">
+            <h2 class="subtitle">Qualidade e Preço Baixo</h2>
+            <h1 class="main-title">Loja de Roupas</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus voluptatum, nesciunt facilis fugit quis ducimus qui.</p>
+            <button class="button-start">Comprar</button>
+            <button class="button-start">Contato</button>
+        </div>
+
+        <img src="assets/imgs/circle.png" alt="Example">
+
+    </section>
+
+    <section class="main-apresentation" id="apresentation">
+
+        <div class="wrapper-card">
+            <img class="roupa" src="assets/imgs/masculina.jpg" alt="roupa masculina">
+            <h3 class="description -product">Roupas Masculinas</h3>
+            <p class="description -small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis eum excepturi est culpa hic</p>
+        </div>
+
+        <div class="wrapper-card">
+            <img class="roupa" src="assets/imgs/feminina.jpg" alt="roupa feminina">
+            <h3 class="description -product">Roupas Feminina</h3>
+            <p class="description -small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis eum excepturi est culpa hic</p>
+        </div>
+
+        <div class="wrapper-card">
+            <img class="roupa" src="assets/imgs/infantil.jpg" alt="roupa infantil">
+            <h3 class="description -product">Roupas Infantil</h3>
+            <p class="description -small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis eum excepturi est culpa hic</p>
+        </div>
+
+    </section>
+
+    <section class="products-section" id="products">
+
+        <h1 class="main-title -products">Nossos Produtos</h1>
+
+        <div class="main-products">
+            <div class="product-wrapper">
+                <img src="assets/imgs/blusa-masculina.jpg" alt="Blusas masculina">
+                <button class="button-product">Blusas Masculina</button>
+            </div>
+            <div class="product-wrapper">
+                <img src="assets/imgs/blusa-feminina.jpg" alt="Blusas Feminina">
+                <button class="button-product">Blusas Feminina</button>
+            </div>
+            <div class="product-wrapper">
+                <img src="assets/imgs/infantil-masculina.jpg" alt="Blusas Infantil maculina">
+                <button class="button-product">Blusas Masculinas Infantil</button>
+            </div>
+            <div class="product-wrapper">
+                <img src="assets/imgs/infantil-feminina.jpg" alt="Blusas Infantil feminina">
+                <button class="button-product">Blusas Infantil Feminina</button>
+            </div>
+            <div class="product-wrapper">
+                <img src="assets/imgs/calça-masculina.jpg" alt="Calças masculina">
+                <button class="button-product">Calças Masculina</button>
+            </div>
+            <div class="product-wrapper">
+                <img src="assets/imgs/calça-feminina.jpg" alt="Calças feminina">
+                <button class="button-product">Calças feminina</button>
+            </div>
+        </div>
+
+       <button class="button-start -seemore">Ver Mais</button>
+
+    </section>
+
+    <section class="section" id="coupon">
+
+        <div class="coupon-section">
+            <div class="wrapper-coupon">
+                <h2 class="subtitle -coupon">10% na sua primeira compra</h2>
+                <h1 class="main-title -title">Cupons de desconto</h1>
+            </div>
+            <img src="assets/imgs/voucher-icon.png" alt="voucher-icon">
+        </div>
+        <button class="button-start -rescue">Resgatar agora</button>
+
+    </section>
+
+    <section class="contact-wrapper" id="contact">
+
+        <h1 class="main-title -products">Contato</h1>
+
+        <form class="main-contact">
+            <input type="text" placeholder="Nome" class="name">
+
+            <input type="email" placeholder="Email" class="email">
+
+            <input type="tel" placeholder="Número de telefone" class="tel">
+
+            <textarea placeholder="Mensagem" class="text" cols="30" rows="10"></textarea>
+
+            <button class="button-start -seemore -send">Enviar</button>
+        </form>
+
+    </section>
+
+    <footer class="main-footer">
+
+        <img src="assets/imgs/logo.png" alt="logo">
+
+        <div class="about">
+            <h3 class="footer-description">Sobre nós</h3>
+            <p>A loja de roupas, é uma loja que oferece
+                 uma experiência única na qualidade e preço baixo.
+            </p>
+        </div>
+
+            <div class="talk">
+                <h3 class="footer-description">Fale com a gente</h3>
+                <p>Você também pode falar conosco pelo
+                 email contato@lojaderoupa.com
+                </p>
+            </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.main-footer {
+    display: flex;
+    padding: 30px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #292E40;
+}
+
+
+.about {
+    
+    flex-direction: column;
+    width: 300px;
+}
+
+.talk {
+    
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-description {
+    font-weight: 600;
+    padding-bottom: 10px;
+}

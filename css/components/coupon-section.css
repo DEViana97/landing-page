@@ -1,0 +1,21 @@
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #292E40;
+}
+
+
+.coupon-section {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.wrapper-coupon {
+   padding-right: 50px;
+}
+

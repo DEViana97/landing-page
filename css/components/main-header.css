@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-header {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500;
+    background-color: #F8CAC1;
+    align-items: center;
+    justify-content: space-between;  
+    padding-left: 20px;
+}
+
+.navigation {
+    margin: 30px;
+    
+}
+
