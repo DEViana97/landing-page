@@ -1,11 +1,12 @@
 .main-footer {
     display: flex;
-    padding: 30px;
+    box-sizing: border-box;
     margin-top: 30px;
     align-items: center;
     justify-content: space-between;
     color: #fff;
     background-color: #292E40;
+    padding: 25px;
 }
 
 
@@ -16,7 +17,7 @@
 }
 
 .talk {
-    
+
     flex-direction: column;
     width: 300px;
 }

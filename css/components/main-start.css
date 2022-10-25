@@ -1,11 +1,36 @@
 .main-start {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     color: #292E40;
     background-color: #F8CAC1;
     padding-top: 50px;  
-    
+    box-sizing: border-box;
+     
+}
+
+.main-start img {
+    border-radius: 50%;
+}
+
+.wrapper-start {
+    max-width: 1200px;
+   
+}
+
+@media (max-width: 800px) {
+    .main-start {
+        grid-template-columns: 1fr;
+        
+    }
+    .wrapper-start {
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
 }
 
 

@@ -16,7 +16,8 @@
 .description {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    width: 500px;
+    width: 60ch;
+    box-sizing: border-box;
     padding-bottom: 20px;
   
 }
@@ -51,4 +52,17 @@
     
     color: #fff;
     font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    .main-title {
+        font-size: 50px;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .description {
+        font-size: 20px;
+        width: 30ch;
+    }
 }
